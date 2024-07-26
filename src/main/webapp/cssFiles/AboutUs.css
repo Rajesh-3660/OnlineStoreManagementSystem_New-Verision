@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	height: 100vh;
+    background: linear-gradient(to top,rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%), url(pictures/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+div{
+	width:1090px;
+    padding-bottom:30px;
+    padding-left:30px;
+}
+h1{
+    font-family: cursive;
+    text-align:center;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.details h2{
+    padding-bottom:15px;
+}
+.details ul{
+    padding-left:30px;
+}
+
+ p, ul{
+	color:white;
+}
+
+a{
+    text-decoration:none;
+    background-color:#ff7200;
+    padding:15px  ;
+    border-radius:20px;
+    color:white;
+    font-size:20px;
+    font-weight:bolder;
+    transition:0.7s ease-in-out;
+    float:right;
+    margin-right:40px;
+    
+}
+
+a:hover{
+    background-color:#223550;
+    color:white;
+} 

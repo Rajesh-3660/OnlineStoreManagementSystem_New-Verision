@@ -1,0 +1,173 @@
+*{
+	margin:0;
+	padding:0;
+}
+.top-bar{
+	padding:20px;
+	height:50px;
+	background-color:black;
+	display:flex;
+	justify-content:space-between;
+}
+.mainlogo{
+	height:50px;
+	width:50px;
+}
+.search-bar{
+	display:flex;
+}
+
+.search{
+	border-top-left-radius:15px;
+	border-bottom-left-radius:15px;
+	font-size:20px;
+	
+}
+.searchicon{
+	height:50px;
+	width:50px;
+	cursor:pointer;
+}
+
+.userName{
+	color:white;
+	font-size:35px;
+	text-align:center;
+	border-bottom:2px solid green;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    background-color: #223550;
+    color: #fff;
+}
+.parentUl {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+.parentUl  a{
+    color: #fff;
+    text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.parentUl  :hover{
+    color: #818181;
+}
+
+.navbars{
+	padding:20px;
+	padding-right:30px;
+	height:50px;
+	background-color:#1f263b;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+.menuicon{
+	height:40px;
+	width:45px;
+	background-color:#1f263b;
+}
+
+span{
+	font-size:31px;
+	cursor:pointer;
+	color:white;
+	border-bottom:1px solid green;
+}
+
+a{
+	text-decoration:none;
+}
+.logout{
+	padding:10px 20px;
+	border-radius:8px;
+	font-weight:bolder;
+	font-size:15px;
+	cursor:pointer;
+	transition:0.7s ease-in-out;
+}
+
+.logout:hover{
+    background-color: black;
+	color:white;
+	
+}
+
+.product{
+	height:500px;
+	width:450px;
+	margin:100px;
+	margin-right:90px;
+	border:2px solid black;
+	padding-left:80px;
+	border-top-left-radius:50px;
+	border-bottom-right-radius:50px;
+}
+
+.productImg{
+	height:250px;
+	margin:30px;
+	align-content:center;
+	cursor:pointer;
+}
+
+.productDescrip{
+	height:70px;
+	width:400px;
+}
+
+.productPrice {
+	color:black;
+	font-size:40px;
+}
+
+.buybutton
+{
+    padding:10px 15px;
+	float:right;
+	margin-right:70px;
+    width:125px;
+	border-radius:10px;
+	cursor:pointer;
+	background-color:black;
+	color:white;
+	font-weight:bolder;
+	font-size:20px;
+	transition:0.5s ease-in-out;
+}
+
+.buybutton:hover{
+	background-color: #ff7200;
+	color:black;
+}
+
+.productTitle{
+	text-align:center; 
+	padding-top:25px;
+	font-family: cursive;
+}
+
+.alignProducts{
+	 width:1075px;
+	 display:grid;
+     grid-template-columns: 1fr 1fr; 
+}
+
+.electronics{
+	border-bottom:2px solid black;
+}
